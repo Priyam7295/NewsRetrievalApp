@@ -29,6 +29,16 @@ This app follows a structured pipeline to process documents and answer user quer
 8. **Similarity Search**: The embedded query is compared against the stored embeddings in FAISS to find the most relevant document chunks.
 9. **Answer Retrieval**: The most relevant chunk is returned as the answer to the user's query.
 
-Flowchart 
+## Technologies Used
 
+This app is built using the following technologies:
+
+- **[Streamlit](https://streamlit.io/)**: A framework for building interactive, data-driven web applications. Used for creating the front-end interface for the users to interact with the app.
+- **[FAISS](https://github.com/facebookresearch/faiss)**: A library for efficient similarity search and clustering of dense vectors. Used to store and search the document embeddings for fast retrieval of relevant information.
+- **[LangChain](https://www.langchain.com/)**: A framework for building applications that process and interact with natural language. It is used here for document loading, splitting, and embedding tasks.
+
+![image](https://github.com/user-attachments/assets/c4f72ef1-8237-4f6f-a9dc-94cd3feac189)
+
+
+![image](https://github.com/user-attachments/assets/7b2601ad-21a1-4490-bffc-9c209b7d11c6)
 
